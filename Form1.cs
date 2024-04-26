@@ -158,7 +158,7 @@ namespace PrinterCostCalculator
             this.printerPowerLabel.Name = "printerPowerLabel";
             this.printerPowerLabel.Size = new System.Drawing.Size(170, 17);
             this.printerPowerLabel.TabIndex = 12;
-            this.printerPowerLabel.Text = "Printer Power Consumption:";
+            this.printerPowerLabel.Text = "Printer Power Consumption (kWh):";
             // 
             // printWeightLabel
             // 

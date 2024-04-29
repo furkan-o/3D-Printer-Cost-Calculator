@@ -44,58 +44,58 @@ namespace PrinterCostCalculator
             // 
             // filamentPriceTextBox
             // 
-            this.filamentPriceTextBox.Location = new System.Drawing.Point(214, 25);
-            this.filamentPriceTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.filamentPriceTextBox.Location = new System.Drawing.Point(245, 24);
+            this.filamentPriceTextBox.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.filamentPriceTextBox.Name = "filamentPriceTextBox";
-            this.filamentPriceTextBox.Size = new System.Drawing.Size(116, 25);
+            this.filamentPriceTextBox.Size = new System.Drawing.Size(132, 22);
             this.filamentPriceTextBox.TabIndex = 0;
             // 
             // electricityPriceTextBox
             // 
-            this.electricityPriceTextBox.Location = new System.Drawing.Point(214, 64);
-            this.electricityPriceTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.electricityPriceTextBox.Location = new System.Drawing.Point(245, 60);
+            this.electricityPriceTextBox.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.electricityPriceTextBox.Name = "electricityPriceTextBox";
-            this.electricityPriceTextBox.Size = new System.Drawing.Size(116, 25);
+            this.electricityPriceTextBox.Size = new System.Drawing.Size(132, 22);
             this.electricityPriceTextBox.TabIndex = 1;
             // 
             // printerPowerTextBox
             // 
-            this.printerPowerTextBox.Location = new System.Drawing.Point(214, 103);
-            this.printerPowerTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.printerPowerTextBox.Location = new System.Drawing.Point(245, 97);
+            this.printerPowerTextBox.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.printerPowerTextBox.Name = "printerPowerTextBox";
-            this.printerPowerTextBox.Size = new System.Drawing.Size(116, 25);
+            this.printerPowerTextBox.Size = new System.Drawing.Size(132, 22);
             this.printerPowerTextBox.TabIndex = 2;
             // 
             // printWeightTextBox
             // 
-            this.printWeightTextBox.Location = new System.Drawing.Point(214, 143);
-            this.printWeightTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.printWeightTextBox.Location = new System.Drawing.Point(245, 135);
+            this.printWeightTextBox.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.printWeightTextBox.Name = "printWeightTextBox";
-            this.printWeightTextBox.Size = new System.Drawing.Size(116, 25);
+            this.printWeightTextBox.Size = new System.Drawing.Size(132, 22);
             this.printWeightTextBox.TabIndex = 3;
             // 
             // printTimeTextBox
             // 
-            this.printTimeTextBox.Location = new System.Drawing.Point(214, 182);
-            this.printTimeTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.printTimeTextBox.Location = new System.Drawing.Point(245, 171);
+            this.printTimeTextBox.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.printTimeTextBox.Name = "printTimeTextBox";
-            this.printTimeTextBox.Size = new System.Drawing.Size(116, 25);
+            this.printTimeTextBox.Size = new System.Drawing.Size(132, 22);
             this.printTimeTextBox.TabIndex = 4;
             // 
             // printerCostTextBox
             // 
-            this.printerCostTextBox.Location = new System.Drawing.Point(214, 221);
-            this.printerCostTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.printerCostTextBox.Location = new System.Drawing.Point(245, 208);
+            this.printerCostTextBox.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.printerCostTextBox.Name = "printerCostTextBox";
-            this.printerCostTextBox.Size = new System.Drawing.Size(116, 25);
+            this.printerCostTextBox.Size = new System.Drawing.Size(132, 22);
             this.printerCostTextBox.TabIndex = 5;
             // 
             // calculateButton
             // 
-            this.calculateButton.Location = new System.Drawing.Point(338, 279);
-            this.calculateButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.calculateButton.Location = new System.Drawing.Point(386, 263);
+            this.calculateButton.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(104, 37);
+            this.calculateButton.Size = new System.Drawing.Size(119, 35);
             this.calculateButton.TabIndex = 6;
             this.calculateButton.Text = "Calculate";
             this.calculateButton.Click += new System.EventHandler(this.CalculateButton_Click);
@@ -103,98 +103,99 @@ namespace PrinterCostCalculator
             // filamentCostLabel
             // 
             this.filamentCostLabel.AutoSize = true;
-            this.filamentCostLabel.Location = new System.Drawing.Point(23, 347);
-            this.filamentCostLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.filamentCostLabel.Location = new System.Drawing.Point(26, 327);
+            this.filamentCostLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.filamentCostLabel.Name = "filamentCostLabel";
-            this.filamentCostLabel.Size = new System.Drawing.Size(124, 17);
+            this.filamentCostLabel.Size = new System.Drawing.Size(125, 16);
             this.filamentCostLabel.TabIndex = 7;
             this.filamentCostLabel.Text = "Filament Cost: ₺0.00";
             // 
             // electricityCostLabel
             // 
             this.electricityCostLabel.AutoSize = true;
-            this.electricityCostLabel.Location = new System.Drawing.Point(172, 347);
-            this.electricityCostLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.electricityCostLabel.Location = new System.Drawing.Point(197, 327);
+            this.electricityCostLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.electricityCostLabel.Name = "electricityCostLabel";
-            this.electricityCostLabel.Size = new System.Drawing.Size(130, 17);
+            this.electricityCostLabel.Size = new System.Drawing.Size(131, 16);
             this.electricityCostLabel.TabIndex = 8;
             this.electricityCostLabel.Text = "Electricity Cost: ₺0.00";
             // 
             // totalCostLabel
             // 
             this.totalCostLabel.AutoSize = true;
-            this.totalCostLabel.Location = new System.Drawing.Point(335, 347);
-            this.totalCostLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.totalCostLabel.Location = new System.Drawing.Point(383, 327);
+            this.totalCostLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.totalCostLabel.Name = "totalCostLabel";
-            this.totalCostLabel.Size = new System.Drawing.Size(104, 17);
+            this.totalCostLabel.Size = new System.Drawing.Size(105, 16);
             this.totalCostLabel.TabIndex = 9;
             this.totalCostLabel.Text = "Total Cost: ₺0.00";
             // 
             // filamentPriceLabel
             // 
             this.filamentPriceLabel.AutoSize = true;
-            this.filamentPriceLabel.Location = new System.Drawing.Point(23, 34);
-            this.filamentPriceLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.filamentPriceLabel.Location = new System.Drawing.Point(26, 32);
+            this.filamentPriceLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.filamentPriceLabel.Name = "filamentPriceLabel";
-            this.filamentPriceLabel.Size = new System.Drawing.Size(133, 17);
+            this.filamentPriceLabel.Size = new System.Drawing.Size(136, 16);
             this.filamentPriceLabel.TabIndex = 10;
             this.filamentPriceLabel.Text = "Filament Price per kg:";
             // 
             // electricityPriceLabel
             // 
             this.electricityPriceLabel.AutoSize = true;
-            this.electricityPriceLabel.Location = new System.Drawing.Point(23, 73);
-            this.electricityPriceLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.electricityPriceLabel.Location = new System.Drawing.Point(26, 69);
+            this.electricityPriceLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.electricityPriceLabel.Name = "electricityPriceLabel";
-            this.electricityPriceLabel.Size = new System.Drawing.Size(150, 17);
+            this.electricityPriceLabel.Size = new System.Drawing.Size(154, 16);
             this.electricityPriceLabel.TabIndex = 11;
             this.electricityPriceLabel.Text = "Electricity Price per kWh:";
             // 
             // printerPowerLabel
             // 
             this.printerPowerLabel.AutoSize = true;
-            this.printerPowerLabel.Location = new System.Drawing.Point(23, 112);
-            this.printerPowerLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.printerPowerLabel.Location = new System.Drawing.Point(26, 105);
+            this.printerPowerLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.printerPowerLabel.Name = "printerPowerLabel";
-            this.printerPowerLabel.Size = new System.Drawing.Size(170, 17);
+            this.printerPowerLabel.Size = new System.Drawing.Size(208, 16);
             this.printerPowerLabel.TabIndex = 12;
             this.printerPowerLabel.Text = "Printer Power Consumption (kWh):";
             // 
             // printWeightLabel
             // 
             this.printWeightLabel.AutoSize = true;
-            this.printWeightLabel.Location = new System.Drawing.Point(23, 152);
-            this.printWeightLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.printWeightLabel.Location = new System.Drawing.Point(26, 143);
+            this.printWeightLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.printWeightLabel.Name = "printWeightLabel";
-            this.printWeightLabel.Size = new System.Drawing.Size(101, 17);
+            this.printWeightLabel.Size = new System.Drawing.Size(100, 16);
             this.printWeightLabel.TabIndex = 13;
             this.printWeightLabel.Text = "Print Weight (g):";
             // 
             // printTimeLabel
             // 
             this.printTimeLabel.AutoSize = true;
-            this.printTimeLabel.Location = new System.Drawing.Point(23, 191);
-            this.printTimeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.printTimeLabel.Location = new System.Drawing.Point(26, 180);
+            this.printTimeLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.printTimeLabel.Name = "printTimeLabel";
-            this.printTimeLabel.Size = new System.Drawing.Size(126, 17);
+            this.printTimeLabel.Size = new System.Drawing.Size(127, 16);
             this.printTimeLabel.TabIndex = 14;
             this.printTimeLabel.Text = "Print Time (minutes):";
             // 
             // printerCostLabel
             // 
             this.printerCostLabel.AutoSize = true;
-            this.printerCostLabel.Location = new System.Drawing.Point(23, 230);
-            this.printerCostLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.printerCostLabel.Location = new System.Drawing.Point(26, 216);
+            this.printerCostLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.printerCostLabel.Name = "printerCostLabel";
-            this.printerCostLabel.Size = new System.Drawing.Size(135, 17);
+            this.printerCostLabel.Size = new System.Drawing.Size(138, 16);
             this.printerCostLabel.TabIndex = 15;
             this.printerCostLabel.Text = "Printer Purchase Cost:";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(467, 392);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(534, 369);
             this.Controls.Add(this.filamentPriceTextBox);
             this.Controls.Add(this.electricityPriceTextBox);
             this.Controls.Add(this.printerPowerTextBox);
@@ -212,7 +213,7 @@ namespace PrinterCostCalculator
             this.Controls.Add(this.printTimeLabel);
             this.Controls.Add(this.printerCostLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
